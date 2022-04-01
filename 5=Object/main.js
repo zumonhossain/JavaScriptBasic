@@ -20,5 +20,3 @@ console.log(`
     Product Name=${productInforObj.productName} Product Price=${productInforObj.productPrice} Product Quantity=${productInforObj.productQuantity} Product is Available=${productInforObj.productIsAvailable}
 `);
 
-
-
