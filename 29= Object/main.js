@@ -1,14 +1,34 @@
 
 
+// eta holo function statement
 
-var zumon = {
-    firstName: 'Zumon',
-    lastName: 'Hossain',
-    age: 23,
-    address: 'Dhaka'
+function zemonHossain(){
+    console.log('Hello Bangladesh');
 }
+zemonHossain();
 
-// object a kono akta line pore add korte chaile ai code
-zumon.phoneNumber = '01852669486';
 
-console.log(zumon);
+
+// eta holo function expression variable er modde rakhe call kora
+var ftShanto = function(){
+    console.log('Hello Bangladesh Function');
+}
+ftShanto();
+
+
+
+// parameter and argument er maddome function statement use kora
+
+function sumMachine(a, b){
+    var sum = a + b;
+    return sum;
+}
+console.log(sumMachine(2, 2));
+console.log(sumMachine(4, 4));
+
+
+
+function printName(name, age){
+    console.log('My name is:' + name + 'and I am' + age + 'years old');
+}
+printName('Zumon Hossain', 21);
