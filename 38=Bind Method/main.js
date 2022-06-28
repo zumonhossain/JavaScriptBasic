@@ -11,5 +11,8 @@ var myCustomObj = {
     }
 }
 
-myCustomObj.anotherObj.value();
-myCustomObj.anotherObj.value.apply(myCustomObj);
+
+
+var anotherFun = myCustomObj.anotherObj.value.bind(myCustomObj);
+
+anotherFun()
