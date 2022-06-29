@@ -1,7 +1,11 @@
-
-
-for ( i = 1; i <= 10; i++) {
-    if ( i % 2 === 0 ) {
-            console.log(i +  " is even");
+for (var x=0; x<=100; x++) {
+    if (x === 0) {
+            console.log(x +  " is even");
+    }
+    else if (x % 2 === 0) {
+            console.log(x + " is even");   
+    }
+    else {
+            console.log(x + " is odd");
     }
 }
